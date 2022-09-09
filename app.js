@@ -13,7 +13,7 @@ class PageState {
 }
 
 //Home State
-const homeState = function (page) {
+const homeState = function () {
   document.querySelector("#heading").textContent = null;
   document.querySelector("#content").innerHTML = `
   <div class="jumbotron">
@@ -29,15 +29,18 @@ const homeState = function (page) {
 };
 
 //About State
-const aboutState = function (page) {
+const aboutState = function () {
   document.querySelector("#heading").textContent = "About Us";
   document.querySelector("#content").innerHTML = `
-    <p>This is about page</p>
+    <p>This is about page.</p>
+    <br>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione impedit doloribus aut ex id aliquam cumque tempora, odit facere porro deserunt! Voluptates est reiciendis odit suscipit rem, tempora porro voluptas? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti quasi eos explicabo illum mollitia, magni quisquam error sint veniam saepe voluptatum omnis rerum culpa. Hic, mollitia officiis optio ducimus eaque tempore qui sequi maxime consectetur, debitis eos fugit consequuntur natus, iusto culpa nihil perferendis in odit. Odit ipsa et sint laborum, deleniti nulla obcaecati voluptate neque doloribus doloremque laboriosam consequuntur magni quisquam praesentium aspernatur. Possimus ipsum, eligendi modi doloremque dolorum aperiam asperiores dicta? Soluta aperiam exercitationem nam nesciunt iure, itaque eius perferendis dolorum cum dignissimos unde ipsam deleniti porro earum quae distinctio voluptates reprehenderit! Nulla ipsa, consequuntur cum sequi modi quas corrupti, excepturi minus in dolorum magnam eos, ex error! Harum assumenda, nisi optio sit rerum doloribus totam explicabo inventore pariatur quas deleniti commodi porro non eveniet ab fugiat eaque minus dignissimos ipsa, iure mollitia, quisquam beatae quos molestias. Nam rem inventore praesentium quis labore delectus laboriosam temporibus cumque adipisci.</p>
+
     `;
 };
 
 //Contact State
-const contactState = function (page) {
+const contactState = function () {
   document.querySelector("#heading").textContent = "Contact Us";
   document.querySelector("#content").innerHTML = `
     <form>
